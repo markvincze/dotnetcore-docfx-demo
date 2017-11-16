@@ -8,6 +8,12 @@ branches:
   only:
     - master
 
+environment:
+  github_access_token:
+    secure: ogUwDK0iZHg1iNKpXTNmvmecSceFfu552HHIVsalKyeDeuc37F0+4lOafCVj6Cng
+  github_email:
+    secure: 5iYcV2GCbnI6N9RZRh6EZa7vVXdoaMoyArpwr4r/r/Q=
+
 install:
   - cinst docfx
 
@@ -19,4 +25,8 @@ test_script:
 - dotnet test test/DotnetCoreDocfxDemo.UnitTests/DotnetCoreDocfxDemo.UnitTests.csproj --configuration Release
 
 deploy_script:
+- git config --global credential.helper store
+- ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:github_access_token):x-oauth-basic@github.com`n"
+- git config --global user.email %github_email%
+- git config --global user.name "markvincze"
 - bash releaseDocs.sh
