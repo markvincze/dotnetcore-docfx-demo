@@ -1,4 +1,5 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+# DotnetCoreDocfxDemo
+
+Demo project illustrating setting up documentation for a .NET Core library with DocFx.
+
+You can find the detailed guide in the following [blog post](), and you can browse the full source code on [GitHub]().
