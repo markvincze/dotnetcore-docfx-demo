@@ -1,32 +1,8 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Workspaces/Github/dotnetcore-docfx-demo2/docs",
+  "source_base_path": "C:/projects/dotnetcore-docfx-demo/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotnetCoreDocfxDemo.DemoClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotnetCoreDocfxDemo.DemoClass.html",
-          "hash": "NXqREqxWLTAww18QDqikHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotnetCoreDocfxDemo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotnetCoreDocfxDemo.html",
-          "hash": "iRQrTGkByTPrv68nxqEigQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
     {
       "log_codes": [
         "InvalidFileLink"
@@ -36,19 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "g3X1P2hEWH+ffxRLbYz6vA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "8bZ0TYQkozn/iGZFEWmTjw=="
+          "hash": "DH+xMl3Ou/yb6x+wZH6e5w=="
         }
       },
       "is_incremental": false,
@@ -60,10 +24,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/example.html",
-          "hash": "eK7Ic7EPX3mmfXSMQLtFiw=="
+          "hash": "V7oM/7p9ui+TpkAN/ra2mQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,10 +36,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/inner-example.html",
-          "hash": "t8LxE+Zo230GQhHIdbXchQ=="
+          "hash": "2WJAFH9Js+QMpSjps5Xoew=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,10 +48,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "0+FZcSwomATVECMnZ1qaDg=="
+          "hash": "mZtwm7uprLZItr9v9Aj5bQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,10 +72,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XGgDesS35w1rhnc0/ZmLSg=="
+          "hash": "CmnopTaZ6f/6GcThyK9ZlA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "ob7LqWp4kTNLz+9W4omdTw=="
+          "hash": "Wi8ImNfvetfJYJx8d4FNLw=="
         }
       },
       "is_incremental": false,
@@ -130,7 +94,8 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -140,29 +105,15 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "RestApiDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}
