@@ -4,6 +4,30 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotnetCoreDocfxDemo.DemoClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotnetCoreDocfxDemo.DemoClass.html",
+          "hash": "RfSsobyRhqblEBXf1jyN6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotnetCoreDocfxDemo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotnetCoreDocfxDemo.html",
+          "hash": "0fh++6OM3pj7grxG1tauUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -12,7 +36,19 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "DH+xMl3Ou/yb6x+wZH6e5w=="
+          "hash": "1BrkJOH1AXpi/Ax96OHDWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "8bZ0TYQkozn/iGZFEWmTjw=="
         }
       },
       "is_incremental": false,
@@ -84,7 +120,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Wi8ImNfvetfJYJx8d4FNLw=="
+          "hash": "ob7LqWp4kTNLz+9W4omdTw=="
         }
       },
       "is_incremental": false,
@@ -102,6 +138,10 @@
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
