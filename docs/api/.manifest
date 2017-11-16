@@ -1,0 +1,7 @@
+{
+  "DotnetCoreDocfxDemo": "DotnetCoreDocfxDemo.yml",
+  "DotnetCoreDocfxDemo.DemoClass": "DotnetCoreDocfxDemo.DemoClass.yml",
+  "DotnetCoreDocfxDemo.DemoClass.#ctor": "DotnetCoreDocfxDemo.DemoClass.yml",
+  "DotnetCoreDocfxDemo.DemoClass.DemoMethod(System.Int32)": "DotnetCoreDocfxDemo.DemoClass.yml",
+  "DotnetCoreDocfxDemo.DemoClass.DemoProperty": "DotnetCoreDocfxDemo.DemoClass.yml"
+}

@@ -20,7 +20,7 @@ namespace DotnetCoreDocfxDemo
         public string DemoProperty { get; set; }
 
         /// <summary>
-        /// The default constructor, it sets the value of the <cref="DemoProperty" /> property.
+        /// The default constructor, it sets the value of the <see cref="DemoProperty" /> property.
         /// </summary>
         public DemoClass()
         {
@@ -31,7 +31,7 @@ namespace DotnetCoreDocfxDemo
         /// A method for demo purposes.
         /// </summary>
         /// <param name="count">Specifies the number of times we'd like to repeat the value.</param>
-        /// <returns>The value of <cref="DemoProperty" /> repeated <paramref="count" /> times.</returns>
+        /// <returns>The value of <see cref="DemoProperty" /> repeated <paramref name="count" /> times.</returns>
         public string DemoMethod(int count)
         {
             var sb = new StringBuilder();

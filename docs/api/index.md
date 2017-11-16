@@ -1,2 +1,3 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+# API Reference
+
+Welcome to the API Reference! The main type of this library is the [DemoClass](DotnetCoreDocfxDemo.DemoClass.html) class.
