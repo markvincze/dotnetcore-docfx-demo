@@ -23,6 +23,7 @@ references:
   name: DemoClass
   href: api/DotnetCoreDocfxDemo.DemoClass.html#DotnetCoreDocfxDemo_DemoClass__ctor_
   commentId: Overload:DotnetCoreDocfxDemo.DemoClass.#ctor
+  isSpec: "True"
   fullName: DotnetCoreDocfxDemo.DemoClass.DemoClass
   nameWithType: DemoClass.DemoClass
 - uid: DotnetCoreDocfxDemo.DemoClass.DemoMethod(System.Int32)
@@ -35,6 +36,7 @@ references:
   name: DemoMethod
   href: api/DotnetCoreDocfxDemo.DemoClass.html#DotnetCoreDocfxDemo_DemoClass_DemoMethod_
   commentId: Overload:DotnetCoreDocfxDemo.DemoClass.DemoMethod
+  isSpec: "True"
   fullName: DotnetCoreDocfxDemo.DemoClass.DemoMethod
   nameWithType: DemoClass.DemoMethod
 - uid: DotnetCoreDocfxDemo.DemoClass.DemoProperty
@@ -47,5 +49,6 @@ references:
   name: DemoProperty
   href: api/DotnetCoreDocfxDemo.DemoClass.html#DotnetCoreDocfxDemo_DemoClass_DemoProperty_
   commentId: Overload:DotnetCoreDocfxDemo.DemoClass.DemoProperty
+  isSpec: "True"
   fullName: DotnetCoreDocfxDemo.DemoClass.DemoProperty
   nameWithType: DemoClass.DemoProperty
